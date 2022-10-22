@@ -1,0 +1,35 @@
+.blogbox a {
+    text-decoration: none;
+    color: var(--black);
+}
+.blogbox img{
+    width: 100%;
+    height: 15rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.blogbox .icons{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--light-color);
+    padding-bottom: 0.5rem;
+}
+.blogbox .icons i{
+    margin-right: 0.5rem;
+}
+.blogbox .content{
+    padding: 1rem;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.blogbox .content h3{
+    color: var(--black);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.blogbox .content p{
+    color: var(--light-color);
+}

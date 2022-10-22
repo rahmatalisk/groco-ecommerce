@@ -1,0 +1,17 @@
+
+
+
+.product-container .box{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin:1rem;
+}
+.product-container .box .price{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.product-container .box .stars i{
+    margin: 0.1rem;
+}

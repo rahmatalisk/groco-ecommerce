@@ -1,0 +1,37 @@
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 0;
+    gap: 1rem;
+    background-repeat: 'no-repeat';
+    background-size: cover;
+}
+
+.banner h1{
+    font-size: 2rem;
+    color: var(--black);
+    font-weight: bold;
+}
+.banner p{
+    color: var(--light-color);
+    text-align: center;
+
+}
+.banner span{
+    color: var(--orange);
+}
+
+.button{
+    color: var(--black);
+    border: 2px solid var(--black);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    background: none;
+    
+}
+.button:hover{
+    background-color: var(--orange);
+    color: white;
+}

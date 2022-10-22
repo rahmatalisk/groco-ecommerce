@@ -1,0 +1,45 @@
+footer p,footer a{
+    color: var(--light-color);
+}
+
+footer .share div{
+    color: var(--black);
+    font-size: 1.5rem;
+    margin: 0 0.2rem;
+    padding: 0.7rem;
+    background-color: #eee;
+    border-radius: 0.5rem;
+}
+
+footer .share div:hover{
+    background-color: var(--orange);
+    color: white;
+}
+
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+}
+.footer-box div{
+margin:  1rem 0;
+}
+.footer-box input{
+    background-color: #eee;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.footer-box div i{
+margin-right:  0.2rem;
+}
+
+.footer-box div:hover i{
+    margin-right: 1.5rem;
+}
+@media only screen and (max-width: 600px) {
+    .footer-content{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

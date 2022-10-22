@@ -1,0 +1,9 @@
+
+.review-container .box{
+    margin: 1rem;
+}
+
+.review-container .box img{
+border-radius: 100%;
+transform: scale(0.7);
+}
